@@ -61,12 +61,6 @@ Maak de code stap voor stap uit met commentaar zodat ik begrijp wat er gebeurt.
 3. Plak de gegenereerde code in het editorvenster
 4. Druk op **Ctrl + S** om op te slaan
 
-### Test:
-- [ ] Ga terug naar Excel (Alt + F11)
-- [ ] Maak een knop en koppel aan **GenereerData**
-- [ ] Klik op de knop
-- [ ] Kolom A en B moeten nu data bevatten
-
 ---
 
 ## Stap 2: Maak Dropdown (4 minuten)
@@ -95,12 +89,6 @@ De gegenereerde VBA-code moet:
 2. Plak in VBA-editor (onder de vorige code)
 3. Druk op **Ctrl + S** om op te slaan
 
-### Test:
-- [ ] Maak een knop en koppel aan **MaakDropdownUniekeProducten**
-- [ ] Klik op de knop
-- [ ] Klik op cel D2
-- [ ] Er moet een dropdown-pijltje verschijnen
-- [ ] Klik erop en selecteer een product
 
 ---
 
@@ -134,12 +122,6 @@ Zorg dat:
 2. Plak in VBA-editor (onder de vorige code)
 3. Druk op **Ctrl + S** om op te slaan
 
-### Test:
-- [ ] Selecteer een product in D2 (bijv. "Product A")
-- [ ] Maak een knop en koppel aan **BerekenSomIf**
-- [ ] Klik op de knop
-- [ ] Cel E2 moet nu het totaal tonen
-- [ ] Wissel van product en klik opnieuw → getal in E2 verandert
 
 ---
 
@@ -174,10 +156,7 @@ Zorg dat:
 5. Wijzig "Sheet1" naar "Blad1" wanneer de taal Nederlands is
 
         knop.OnAction = "Sheet1.BerekenSomIf"
-        
-### Test:
-- [ ] De knop "Bereken Verkoop" moet nu zichtbaar zijn op je blad
-- [ ] Klik erop en test of het werkt
+
 
 ---
 ## Antwoorden
